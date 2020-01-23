@@ -224,7 +224,7 @@
         },
         /*锚点*/
         goAnchor:function (event,id,offset) {
-            offset=typeof offset==Number?offset:-100;
+            offset=typeof offset==Number?offset:-150;
             var targetEle=null;
             if(event){
                 if(event.currentTarget){

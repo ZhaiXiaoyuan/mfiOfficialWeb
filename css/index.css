@@ -122,9 +122,9 @@ body {
 }
 .logo-icon {
   display: inline-block;
-  background: url("../img/page/logo-icon.png") no-repeat;
+  background: url("../img/page/mfi-china-white-logo-icon.png") no-repeat;
   width: 70px;
-  height: 70px;
+  height: 86px;
   background-size: 100% 100%;
 }
 .student-icon {
@@ -197,8 +197,8 @@ body {
   font-size: 14px;
   color: #ed95bd;
   padding: 20px;
-  -webkit-transition: right .3s;
-  transition: right .3s;
+  -webkit-transition: right 0.3s;
+  transition: right 0.3s;
   border-radius: 5px;
 }
 .login-options .item + .item {
@@ -274,11 +274,11 @@ body {
   color: #fff;
 }
 .banner-panel .panel-bd .title {
-  padding: 20px 0px 30px 0px;
+  padding: 20px 0px 20px 0px;
   font-size: 40px;
 }
 .banner-panel .panel-bd .desc {
-  font-size: 15px;
+  font-size: 18px;
 }
 .footer {
   padding: 20px 20px;
@@ -304,6 +304,12 @@ body {
   font-size: 30px;
   color: #535fab;
   font-weight: 700;
+}
+.cm-panel .panel-hd .sub-title {
+  margin-top: 5px;
+  color: #ED98BF;
+  font-size: 14px;
+  font-weight: bold;
 }
 .cm-panel .panel-hd:before {
   position: absolute;
@@ -335,7 +341,7 @@ body {
   font-size: 20px;
   color: #848484;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 .cm-panel .block .block-bd p {
   font-size: 16px;
@@ -356,6 +362,9 @@ body {
 .cm-panel .block .block-bd .img-wrap img {
   max-width: 60%;
 }
+.cm-panel .block .block-bd .img-margin-top {
+  margin-top: 10px;
+}
 .cm-panel .block .block-bd + .block-bd {
   margin-top: 20px;
 }
@@ -365,7 +374,7 @@ body {
 .introduce-panel .desc-text {
   display: inline-block;
   text-align: left;
-  line-height: 1.4em;
+  line-height: 1.6em;
   font-size: 1.5em;
   color: #535fab;
   padding-bottom: 50px;
@@ -390,7 +399,7 @@ body {
   padding: 20px;
 }
 .nav-list .item a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
   font-weight: bold;
   font-size: 18px;
   -webkit-transition: color 0.3s;
@@ -404,16 +413,15 @@ body {
 }
 .nav-list .item .sub-list a {
   font-size: 16px;
+  /* font-weight: normal;*/
 }
 .nav-list .item .sub-list > li + li {
   margin-top: 15px;
 }
 .entrance-list {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
 }
@@ -425,20 +433,37 @@ body {
 }
 .mermaid-list {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .mermaid-list li {
+  position: relative;
   width: 33%;
   padding: 40px;
 }
-.mermaid-list li img {
-  max-width: 100%;
+.mermaid-list li .item-content {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.mermaid-list li .item-content .img-bg {
+  width: 310px;
+  height: 230px;
+}
+.mermaid-list li .title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ED95BD;
+  /* 不支持线性的时候显示 */
+  background-image: -webkit-gradient(linear, left top, right top, from(#5460AB), to(#ED95BD));
+  background-image: linear-gradient(to right, #5460AB, #ED95BD);
 }
 .link-panel {
   background: url("../img/page/index-2.png") no-repeat;
@@ -479,16 +504,13 @@ body {
 .connect {
   float: right;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 10px 0px;
 }
 .connect .logo-img {
   width: 50px;
-  height: 50px;
+  height: 58px;
+  margin-top: 20px;
   margin-right: 20px;
 }
 .connect .content img + img {
@@ -504,6 +526,13 @@ body {
   margin-top: 4px;
   font-size: 14px;
   color: #999;
+}
+.connect .qrcode-row {
+  display: -webkit-box;
+  display: flex;
+}
+.connect .qrcode-row img {
+  width: 100px;
 }
 .animate-box {
   opacity: 0;
@@ -591,10 +620,8 @@ body {
     font-size: 16px;
   }
   .entrance-list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
   }
   .entrance-list li {
