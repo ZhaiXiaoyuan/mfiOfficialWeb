@@ -170,6 +170,7 @@ body {
   left: 0px;
   -webkit-transition: left 0.3s;
   transition: left 0.3s;
+  overflow-x: hidden;
 }
 .banner-panel {
   width: 100%;

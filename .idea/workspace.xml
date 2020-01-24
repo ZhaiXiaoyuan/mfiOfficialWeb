@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff791f49-06d0-4577-8fc3-e342b18b55b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/service/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/service/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mfiProject/src" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -111,7 +108,9 @@
       <workItem from="1568645269215" duration="195000" />
       <workItem from="1573220768449" duration="639000" />
       <workItem from="1573226141076" duration="322000" />
-      <workItem from="1579747098283" duration="15677000" />
+      <workItem from="1579747098283" duration="17079000" />
+      <workItem from="1579790283535" duration="5000" />
+      <workItem from="1579792197686" duration="460000" />
     </task>
     <servers />
   </component>
@@ -131,6 +130,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="615" y="296" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579747762116" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579772103228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579772103228" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1579747762862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
