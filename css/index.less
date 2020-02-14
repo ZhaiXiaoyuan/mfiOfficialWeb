@@ -295,7 +295,7 @@ body{
       p{
         font-size: 16px;
         color: #535fab;
-        word-break: keep-all;
+       /* word-break: keep-all;*/
       }
       .title{
         padding-bottom: 2px;
@@ -325,7 +325,7 @@ body{
 }
 .introduce-panel .desc-text{
   display: inline-block;
-  text-align: left;
+  text-align: center;
   line-height: 1.6em;
   font-size: 1.5em;
   color: #535fab;
@@ -349,18 +349,18 @@ body{
 .nav-list{
   padding: 20px;
   .item{
-    a{
+    a,p{
       color: rgba(255, 255, 255, 0.8);
       font-weight: bold;
       font-size: 18px;
       transition: color 0.3s;
     }
-    a:hover{
+    a:hover,p:hover{
       color: #add992;
     }
     .sub-list{
       padding: 15px 0px 15px 15px;
-      a{
+      a,p{
         font-size: 16px;
        /* font-weight: normal;*/
       }
@@ -481,6 +481,7 @@ body{
     display: flex;
     img{
       width: 100px;
+      height: 100px;
     }
   }
 }
@@ -537,7 +538,7 @@ body{
       }
       .sub-list{
         padding: 5px 0px 5px 10px;
-        a{
+        a,p{
           font-size: 14px;
         }
         li+li{
@@ -551,8 +552,8 @@ body{
   }
   .cm-container{
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .cm-panel{
     padding-top: 20px;
@@ -586,7 +587,7 @@ body{
   }
   .mermaid-list li{
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 0px;
     text-align: center;
   }
   .cm-panel .block .block-bd .title{
