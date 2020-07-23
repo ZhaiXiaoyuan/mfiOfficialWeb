@@ -6,6 +6,6 @@
 (function(){
 
     window.BASIC_CONFIG = {
-        managementSystemBasicPath:window.location.origin+'/mfiWeb/index.html#/',
+        managementSystemBasicPath:'http://china.mfi.group/mfiWeb/index.html#/',
     }
 })();
